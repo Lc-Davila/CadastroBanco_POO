@@ -1,3 +1,5 @@
+package telas;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -46,7 +48,7 @@ public class Janela extends JFrame {
 
         jlAgencia = new JLabel("Código da Agência");
         jlAgencia.setBounds(10, 10, 110, 18);
-        getContentPane().add(jlAgencia)
+        getContentPane().add(jlAgencia);
 
         jtfAgencia = new JTextField();
         jtfAgencia.setBounds(125, 10, 50, 20);
